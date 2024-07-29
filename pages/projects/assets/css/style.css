@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+body{
+    background-color: #adbada;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background: #3d52a1;
+}
+.navbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-style: italic;
+}
+.navbar nav ul li{
+    margin-left: 20px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #eee8f6;
+    font-size: 1em;
+    position: relative;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #7191e6;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar nav ul li a:hover{
+    color: #3d52a1;
+}
+#projects{
+    color: #3d52a1;
+    font-weight: 700;
+}
+.projects{
+    padding: 4rem 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+    width: auto;
+}
+.proj-grid_1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.proj-grid_2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #7191e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.proj:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(113, 145, 230, 0.8);
+    color: #fff;
+}
+.proj img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.proj h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #eee8f6;
+}
+.proj .click-here-btn{
+    display: inline-block;
+    background-color: #636f8d;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+.proj .click-here-btn:hover{
+    background-color: #8697c3;
+}
+.footer{
+    background-color: #3d52a1;
+    color: #ffffff;
+    padding: 5px 5px;
+    text-align: center;
+    height: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section p{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #eee8f6;
+}

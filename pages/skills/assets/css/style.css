@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+body{
+    background-color: #adbada;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background: #3d52a1;
+}
+.navbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-style: italic;
+}
+.navbar nav ul li{
+    margin-left: 20px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #eee8f6;
+    font-size: 1em;
+    position: relative;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #7191e6;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar nav ul li a:hover{
+    color: #3d52a1;
+}
+#skills{
+    color: #3d52a1;
+    font-weight: 700;
+}
+
+.skills_main{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    align-items: center;
+}
+.skills_main .title{
+    display: flex;
+    align-self: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.skill{
+    background: rgba(212, 217, 213, 0.61);
+    padding: 2rem;
+    text-align: center;
+    width: 15rem;
+    transition: transform 0.1s;
+}
+.skill:hover{
+    transform: scale(1.05);
+}
+.skill i{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #7191e6;
+}
+.skill h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #3d52a1;
+}
+.footer{
+    background-color: #3d52a1;
+    color: #ffffff;
+    padding: 5px 5px;
+    text-align: center;
+    height: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section p{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #eee8f6;
+}
