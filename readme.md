@@ -62,13 +62,14 @@ Description of the project in details.
 Guiding Question:
 - What is the project - This is my final project for web design, this contains my works and my resume.
 - Whats the purpose - This is needed for my Web Design
-- What are key components - The key components is Multipage Website.
+- What are key components - The key components are Navigation and Multipage Website.
 - What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
+- Navigation
 
 ### Technology
 <!-- TODO: List of Technology Used -->
